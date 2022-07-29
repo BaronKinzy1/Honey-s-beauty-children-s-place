@@ -1,0 +1,95 @@
+:root {
+    --blue: #287bff;
+    --white: #fff;
+    --grey: #f5f5f5;
+    --black1: #222;
+    --black2: #999;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    width: 350px;
+    height: auto;
+    padding: 20px 10px 10px 10px;
+    background: var(--grey);
+    border: none;
+    border-bottom: 7px solid var(--blue);
+    margin: 10px;
+}
+
+form input[type='submit'] {
+    width: 350px;
+    height: auto;
+    padding: 20px 10px 10px 10px;
+    background: var(--blue);
+    border: none;
+    border-bottom: 7px solid var(--blue);
+    margin: 10px;
+    color: var(--white);
+}
+
+form input.delete[type='submit'] {
+    width: 350px;
+    height: auto;
+    padding: 20px 10px 10px 10px;
+    background: var(--warning);
+    border: none;
+    border-bottom: 7px solid var(--warning);
+    margin: 10px;
+    color: var(--white);
+}
+
+select {
+    width: 350px;
+    height: auto;
+    padding: 20px 10px 10px 10px;
+    background: var(--grey);
+    border: none;
+    border-bottom: 7px solid var(--blue);
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+
+
+form label {
+    padding-left: 15px;
+}
+
+.formcard h4 {
+    margin: 10px;
+    font-weight: 600;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+#signin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/Study.png') center no-repeat;
+    margin: 0px;
+    padding: 0;
+}
+
+#signin form {
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#signin form h2 {
+    padding-left: 10px;
+}
